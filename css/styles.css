@@ -1,0 +1,120 @@
+[class*="zocial-"]:before {
+    display: inline-block;
+    text-shadow: 3px 3px 3px #aaa;
+    font-family: 'zocial', sans-serif;
+    width: 40px;
+}
+* {
+    font-family: 'Lato', sans-serif;
+}
+img, embed, object, video {
+    max-width: 100%;
+}
+.logo {
+    margin: 1em;
+}
+.featured-work {
+    color: #7d97ad;
+    font-family: 'Lato bold', sans-serif;
+}
+.author {
+    color: #2d3c49;
+    font-size: 60px;
+    font-weight: 100;
+}
+.skill {
+    color: #2d3c49;
+    font-weight: bold;
+    font-family: 'Lato bold', sans-serif;
+}
+.project-name {
+    color: #2d3c49;
+    font-family: 'Lato bold', sans-serif;
+}
+.social-media {
+    margin-bottom: 3em;
+}
+.text-weight {
+    font-weight: bolder;
+}
+@media screen and (max-width: 768px) {
+    .col-xs-12 {
+        margin-bottom: 0 auto 2em auto;
+    }
+    .author {
+        font-size: 45px;
+    }
+    .featured-work {
+        font-size: 30px;
+    }
+    .project-name {
+        font-size: 25px;
+    }
+    .skill {
+        font-size: 22px;
+    }
+}
+@media screen and (max-width: 550px) {
+    .col-xs-12 {
+        margin-bottom: 2em;
+    }
+    .author {
+        font-size: 30px;
+    }
+    .featured-work {
+        font-size: 23px;
+    }
+    .project-name {
+        font-size: 20px;
+    }
+    .skill {
+        font-size: 18px;
+    }
+    .logo {
+        width: 40%;
+    }
+}
+@media screen and (max-width: 400px) {
+    .col-xs-12 {
+        margin-bottom: 1.5em;
+    }
+    .author {
+        font-size: 25px;
+    }
+    .featured-work {
+        font-size: 18px;
+    }
+    .project-name {
+        font-size: 15px;
+    }
+    .skill {
+        font-size: 13px;
+    }
+    .logo {
+        width: 30%;
+    }
+}
+.horizontal-line {
+   height: 15px;
+    border: 0;
+    box-shadow: 0 15px 15px -15px #7d97ad inset;
+    color: #7d97ad;
+}
+.list-group-horizontal .list-group-item {
+    display: inline-block;
+}
+.list-group-horizontal .list-group-item {
+    margin-bottom: 0;
+    margin-left:-6px;
+    margin-right: -3px;
+    border-right-width: 0;
+}
+.list-group-horizontal .list-group-item:first-child {
+    border-top-right-radius:0;
+    border-bottom-left-radius:4px;
+}
+.list-group-horizontal .list-group-item:last-child {
+    border-top-right-radius:4px;
+    border-bottom-left-radius:0;
+    border-right-width: 1px;
+}
